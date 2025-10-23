@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IncomeTaxEase for Small Entrepreneurs</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🌅 Hero Section -->
+  <header class="hero-section">
+    <div class="overlay">
+      <h1>IncomeTaxEase for Small Entrepreneurs</h1>
+      <p>"Advocacy for a fairer, simpler tax system that empowers small entrepreneurs."</p>
+      <p><strong>Fair tax for Entrepreneurs</strong> – <em>We take the Stress, so you can focus on success.</em></p>
+    </div>
+  </header>
+
+  <!-- 🔗 Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#issues">Issues</a>
+    <a href="#values">Values</a>
+    <a href="#calculator">Calculator</a>
+    <a href="#resources">Resources</a>
+    <a href="#contact-us">Contact Us</a>
+  </nav>
+
+  <!-- 🧩 About Section -->
+  <section id="about" class="about">
+    <h2>About</h2>
+    <p>We campaign for a just, transparent, and streamlined tax system that enables small entrepreneurs to develop and succeed. Join our movement to reduce unnecessary burdens, increase clarity, and promote inclusiveness in the business community.</p>
+  </section>
+
+  <!-- ⚠️ Issues -->
+  <section id="issues" class="issues">
+    <h2>Issues / Problems</h2>
+    <div class="highlight">
+      <ul>
+        <li><strong>High Tax Burden:</strong> Small enterprises struggle under complex regulations and excessive taxes.</li>
+        <li><strong>Lack of Support:</strong> Limited government education and assistance leave many entrepreneurs confused.</li>
+        <li><strong>Economic Impact:</strong> Small business owners, the backbone of the economy, often carry an unfair share of taxes.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 🎯 Goals -->
+  <section id="goals" class="goals">
+    <h2>Advocacy Goals</h2>
+    <ul>
+      <li>Simplify taxation processes for small enterprises.</li>
+      <li>Reduce tax rates or offer tax benefits for microenterprises and startups.</li>
+      <li>Enhance transparency and equity in tax collection.</li>
+      <li>Offer government assistance, training, and advice to small business owners.</li>
+    </ul>
+  </section>
+
+  <!-- 🖼️ Infographic Section 1 -->
+  <section class="infographic-section">
+    <h2>Infographic</h2>
+    <p>National & Local Taxes Applicable to Business Entities in the Philippines</p>
+    <img src="Infographic.jpg" alt="Infographic about taxes in the Philippines">
+  </section>
+
+  <!-- 💎 Values Section -->
+  <section id="values" class="values">
+    <h2>Values</h2>
+    <div class="highlight">
+      <ul>
+        <li><strong>Accessibility:</strong> TaxEase would like to assist everyone, regardless of the size of their business. It ensures its services are clear to understand, not overly costly, and easy to use by all business owners.</li>
+        <li><strong>Innovation:</strong> TaxEase employs new technology in order to simplify paying taxes, making it quicker and more convenient. It assists business owners with saving time and making fewer errors while preparing their taxes.</li>
+        <li><strong>Growth and Sustainability:</strong> TaxEase desires for all businesses to grow and survive a long time. It shows owners how to manage their taxes properly so their business will succeed and contribute to the economy as well.</li>
+        <li><strong>Support and Collaboration:</strong> TaxEase allows business owners to work together and learn from one another. It provides training, counsel, and assistance so everyone can grow and develop their business.</li>
+        <li><strong>Transparency:</strong> TaxEase is transparent and honest. It keeps things simple to explain how taxes work so entrepreneurs can know everything and never be charged a hidden fee or confused by rules.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 🖼️ Infographic Section 2 -->
+  <section class="infographic-section">
+    <h2>Infographic</h2>
+    <p>National & Local Taxes Applicable to Business Entities in the Philippines</p>
+    <img src="Paper.jpg.jpg" alt="Paper about taxes in the Philippines">
+  </section>
+
+  <!-- 💰 Tax Calculator Section -->
+  <section id="calculator" class="calculator-section" style="text-align: center; padding: 40px; background: #f5f6fa;">
+    <h2>💰 Tax Calculator (Monthly / Annual)</h2>
+    <div class="container" style="margin: 0 auto; max-width: 380px; background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.2); text-align: center;">
+      <select id="mode" style="width: 100%; padding: 12px; margin-bottom: 15px; border: 2px solid #ccc; border-radius: 8px; font-size: 16px;">
+        <option value="annual">Annual Income</option>
+        <option value="monthly">Monthly Income</option>
+      </select>
+      <input type="number" id="income" placeholder="Enter your income (₱)" step="0.01" style="width: 100%; padding: 12px; margin-bottom: 15px; border: 2px solid #ccc; border-radius: 8px; font-size: 16px;">
+      <button onclick="calculateTax()" style="width: 100%; padding: 12px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">Calculate</button>
+      <div class="result" id="result" style="margin-top: 20px; text-align: left; background: #f8f9fb; padding: 15px; border-radius: 10px; box-shadow: inset 0 0 5px rgba(0,0,0,0.05);"></div>
+    </div>
+  </section>
+
+  <!-- 🎥 Video Section -->
+  <section class="video-section">
+    <h2 style="text-align: center; color: #003366;">Campaign Video</h2>
+    <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
+      <video width="640" height="360" controls style="border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+        <source src="max.MP4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <!-- 📞 Contact Section -->
+  <section id="contact-us" class="contact-us">
+    <h2>Contact Us</h2>
+    <p>Spread the word! Use the buttons below or copy our campaign message.</p>
+
+    <div class="contact-info">
+      <p><strong>Email:</strong><br>
+        <a href="mailto:IncomeTaxEase00@gmail.com">IncomeTaxEase00@gmail.com</a>
+      </p>
+
+      <p><strong>Facebook:</strong><br>
+        <a href="https://www.facebook.com/profile.php?id=100093905073120&mibextid=ZbWKwL" target="_blank">
+          facebook.com/IncomeTaxEase
+        </a>
+      </p>
+
+      <p><strong>Location:</strong><br>
+        Don Bosco High School, Philippines
+      </p>
+    </div>
+  </section>
+
+  <!-- 📚 Resources -->
+  <section id="resources" class="resources">
+    <h2>Resources</h2>
+    <div class="resource-item">
+      <h3>Articles</h3>
+      <p>Blog posts interpreting tax policies, reforms, and updates.</p>
+    </div>
+    <div class="resource-item">
+      <h3>Infographics</h3>
+      <p>Visual overviews of taxation procedures.</p>
+    </div>
+    <div class="resource-item">
+      <h3>Videos</h3>
+      <p>Interviews with small business owners and tax reform experts.</p>
+    </div>
+  </section>
+
+  <!-- ⚖️ Footer -->
+  <footer>
+    <p>© 2025 Fair Tax for Small Entrepreneurs | Designed for advocacy and awareness</p>
+  </footer>
+
+  <!-- 💻 Tax Calculator JavaScript -->
+  <script>
+    function calculateTax() {
+      let income = parseFloat(document.getElementById("income").value);
+      let mode = document.getElementById("mode").value;
+      let resultDiv = document.getElementById("result");
+
+      if (isNaN(income) || income < 0) {
+        resultDiv.innerHTML = "⚠️ Please enter a valid income amount.";
+        return;
+      }
+
+      let annualIncome = mode === "monthly" ? income * 12 : income;
+      let tax = 0;
+
+      if (annualIncome <= 250000) tax = 0;
+      else if (annualIncome <= 400000) tax = (annualIncome - 250000) * 0.20;
+      else if (annualIncome <= 800000) tax = 30000 + (annualIncome - 400000) * 0.25;
+      else if (annualIncome <= 2000000) tax = 130000 + (annualIncome - 800000) * 0.30;
+      else if (annualIncome <= 8000000) tax = 490000 + (annualIncome - 2000000) * 0.32;
+      else tax = 2410000 + (annualIncome - 8000000) * 0.35;
+
+      const netIncome = annualIncome - tax;
+      const monthlyTax = tax / 12;
+      const monthlyNet = netIncome / 12;
+
+      resultDiv.innerHTML = `
+        <p><strong>Income Type:</strong> ${mode === "monthly" ? "Monthly" : "Annual"}</p>
+        <p><strong>Total Income:</strong> ₱${annualIncome.toLocaleString(undefined, {minimumFractionDigits: 2})}</p>
+        <p><strong>Tax Due:</strong> ₱${tax.toLocaleString(undefined, {minimumFractionDigits: 2})}</p>
+        <p><strong>Net Income:</strong> ₱${netIncome.toLocaleString(undefined, {minimumFractionDigits: 2})}</p>
+        ${mode === "monthly" ? `
+          <hr>
+          <p><strong>Monthly Tax:</strong> ₱${monthlyTax.toLocaleString(undefined, {minimumFractionDigits: 2})}</p>
+          <p><strong>Monthly Net Income:</strong> ₱${monthlyNet.toLocaleString(undefined, {minimumFractionDigits: 2})}</p>
+        ` : ""}
+        ${tax === 0 ? "<p style='color:green;'>✅ You are tax-exempt (₱250,000 and below)</p>" : ""}
+      `;
+    }
+  </script>
+</body>
+</html>
